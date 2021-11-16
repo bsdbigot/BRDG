@@ -20,15 +20,17 @@ Format: ID,FIRST,LAST,EMAIL,GENDER,VERTICAL,JOBTITLE,CITY,STATE
 
 ### Source Data
 This dataset comprises the values that will be combined randomly to generate a new output record.  You may add or remove values from these lists without affecting the operation of the program.  Internal duplicates are discouraged, attempt to use the weighting feature, instead.
-* cities.dat - top 100 most populous cities in USA
+* cities.csv - top 100 most populous cities in USA
   - format: City Name,State Name|weight
-* female.dat - top 100 female names
+* female.csv - top 100 female names
   - format: Name|weight
-* jobtitles.dat - top 100 job titles
+* jobtitles.csv - top 100 job titles
   - format: Name|weight
-* male.dat - top 100 male names
+* lastnames.csv - top 100 surnames
   - format: Name|weight
-* verticals.dat - list of 5 industry categories
+* male.csv - top 100 male names
+  - format: Name|weight
+* verticals.csv - list of 5 industry categories
   - format: Name|weight
 
 ### Weighting
